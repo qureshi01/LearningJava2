@@ -21,7 +21,11 @@ public class CollectionTest {
             System.out.println(list.get(i));
         }
 
-        list.forEach(i-> System.out.println(i)); //New way of printing output
+        for (int i : list){ //for each loop
+            System.out.println(i);
+        }
+
+        list.forEach(i-> System.out.println(i)); //New way of printing output, for each loop with an arrow function
 
         List<Integer> linkedlist= new LinkedList<>(); //Linked list
 
