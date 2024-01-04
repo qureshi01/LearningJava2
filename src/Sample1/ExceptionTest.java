@@ -12,7 +12,7 @@ public class ExceptionTest {
        // } catch (FileNotFoundException ex) {
         //    System.out.println("File was not found");
         } catch(IOException e){
-              System.out.println("IOEXCEPTION");  //it is not throwing an error because it is a parent class of filenotfoundexceptiom
+              System.out.println("IOEXCEPTION");  //it is not thrwing an error because it is a parent class of filenotfoundexception
         }
         System.out.println("Done");
     }
