@@ -27,7 +27,8 @@ public class throwsKeyword {
 
     public static void fun(int z){ //throws IOException{
         if(z<=0){
-            throw new InputMismatchException("Invalid Input");
+            //throw new InputMismatchException("Invalid Input");
+            throw new DobAgeNotMatchingException("DOB DOESN'T MATCH"); //user-defined exception
         }
           // PrintWriter pw = new PrintWriter("abc1.txt");
           // pw.println(z);
