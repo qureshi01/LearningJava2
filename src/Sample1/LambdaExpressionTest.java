@@ -14,7 +14,7 @@ public class LambdaExpressionTest {
 
         //System.out.println(list);
 
-        //list.stream().map(i->i+2.)//not completed
+        //list.stream().map(i->i+2).)//not completed
         list.forEach(i-> System.out.println(i));
     }
 }
